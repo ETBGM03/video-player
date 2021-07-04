@@ -1,0 +1,27 @@
+.botton{
+  inline-size: 30px;
+  block-size: 33px;
+  border: none;
+  background-color: unset;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.botton:active{
+  transform: scale(.9);
+}
+#play{
+  background-image: url(./../images/play.svg);
+}
+
+#pause{
+  background-image: url(./../images/pause.svg);
+}
+
+#forward{
+  background-image: url(./../images/+10.svg);
+}
+
+#backward{
+  background-image: url(./../images/-10.svg);
+}
